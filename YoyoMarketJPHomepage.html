@@ -1,0 +1,899 @@
+﻿**Yoyo Market Header:**
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        ##HEAD##
+        <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/font-face.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/reset.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/cc.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/main.css" media="screen" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="##MERCHANT_URL##/00198-1/design/css/cc-ie7.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel="stylesheet" href="##MERCHANT_URL##/00198-1/design/css/cc-ie6.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="##MERCHANT_URL##/00198-1/design/css/ie7.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel="stylesheet" href="##MERCHANT_URL##/00198-1/design/css/ie6.css" type="text/css" media="screen" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/color.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/jquery-jcarousel.css" media="screen" />
+ ##IF_LANG_2##
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    ##END_IF##
+    ##IF_LANG_2##
+ <link rel="stylesheet" type="text/css" href="##MERCHANT_URL##/00198-1/design/css/japanese.css" media="screen" />
+ ##END_IF##
+    
+        <script type="text/javascript" src="##MERCHANT_URL##/00198-1/design/js/slides.min.jquery.js"></script>
+        <script type="text/javascript" src="##MERCHANT_URL##/00198-1/design/js/jquery.jcarousel.min.js"></script>
+        <script type="text/javascript" src="##MERCHANT_URL##/00198-1/design/js/DD_roundies.js"></script>
+          
+        <script type="text/javascript" >
+        $(function(){
+            $('#slides').slides({
+                preload: true,
+                preloadImage: 'img/loading.gif',
+                play: 5000,
+                pause: 2500,
+                hoverPause: true
+            });
+        });
+    </script>
+    <script type="text/JavaScript">
+$(function() {
+   $('input').each(function() {
+       $(this).addClass(this.type);
+   });
+});
+</script>
+   <script type="text/javascript">
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        scroll: 4,
+            visible: 4,
+            animation: 1400
+    });
+});
+
+</script>
+<script type="text/javascript" >
+  /* IE only */
+  DD_roundies.addRule('.round', '16px');
+  DD_roundies.addRule('.roundBot', '0px 0px 10px 10px');
+</script>
+<script type="text/javascript">
+
+jQuery(document).ready(function() {
+    $('.salePrice').parent().addClass('salePriceBox');
+    });
+</script>
+    </head>
+    <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="container">
+    <div id="header">
+        <div id="logo">
+            <div class="mylogo">
+                                                                                                                            <!--...-->
+                ##CONTENT_MODULE_36##
+                                                                                                                            <!--...-->
+            </div>            
+        </div>  
+        <div id="header-links">
+        ##IF_LANG_1##
+        <a class="top-my-account" href="##MERCHANT_URL##/cart.php?m=account" style="font-size:13px;line-height:17px;">my account</a>
+        ##END_IF##
+        ##IF_LANG_2##
+        <a class="top-my-account" href="##MERCHANT_URL##/cart.php?m=account" style="font-size:13px;line-height:17px;">マイ アカウント</a>
+        ##END_IF##
+        ##CONTENT_MODULE_35##
+        <!--##MENU_BAR##-->
+        
+        <div class="cart-box">
+         <a class="top-view-cart" href="##MERCHANT_URL##/cart.php?m=view"></a>
+            ##SIDEBAR_SHOPPING_CART##
+            </div>
+        ##IF_LANG_1##
+        <a class="top-my-account" href="https://www16.corecommerce.com/~yoyomarket/login.php?m=create_account&go=&email=" style="font-size:13px;line-height:17px;position:relative">sign up</a>    
+        ##END_IF##
+        ##IF_LANG_2##
+        <a class="top-my-account" href="https://www16.corecommerce.com/~yoyomarket/login.php?m=create_account&go=&email=" style="font-size:13px;line-height:17px;position:relative">新規登録</a>    
+        ##END_IF##
+        <br clear="all"/>
+        <hr />    
+            
+            <div class="header-contact">  
+            
+<!--start http://www.livehelpnow.net  -->
+                                                                                                                            
+
+<!--This DIV object will show the live chat button, have it placed in the location on your website where you would like the live chat button to show-->
+<div id="lhnContainer" style="text-align: center">
+<div id="lhnChatButton"></div>
+
+</div>
+                                                                                                                            
+<!--You may install the following code in an external JavaScript file if you like-->
+<script type="text/javascript">
+var lhnAccountN=12091; //LiveHelpNow account #
+var lhnButtonN = 3488; //Button #
+var lhnInviteEnabled = 1; //Invite visitor to chat automatically
+var lhnInviteChime = 0; //1 = disable invite beep sound,0 = keep invite beep sound enabled
+var lhnWindowN = 0; //Chat window #, leave 0 to open default window setup for your account
+var lhnDepartmentN = 0; //Department #, leave 0 to not route by department
+var lhnCustomInvitation = ''; //change to 1 to use custom invitation, see this article for customization instructions: http://help.livehelpnow.net/article.aspx?cid=1&aid=1739
+var lhnCustom1 = ''; //Custom1 feed value please use encodeURIComponent() function to encode your values
+var lhnCustom2 = ''; //Custom2 feed value please use encodeURIComponent() function to encode your values
+var lhnCustom3 = ''; //Custom3 feed value please use encodeURIComponent() function to encode your values
+var lhnTrackingEnabled = 't'; //change to 'f' to disable visitor tracking
+var lhnVersion = 5.3; //LiveHelpNow version #
+var lhnJsHost = (("https:" == document.location.protocol) ? "https://" : "http://"); //to force secure chat replace this line with: var lhnJsHost = 'https://';
+var lhnScriptSrc = lhnJsHost + 'www.livehelpnow.net/lhn/scripts/livehelpnow.aspx?lhnid=' + lhnAccountN + '&iv=' + lhnInviteEnabled + '&d=' + lhnDepartmentN + '&ver=' + lhnVersion + '&rnd=' + Math.random();
+var lhnScript = document.createElement("script"); lhnScript.type = "text/javascript";lhnScript.src = lhnScriptSrc;
+if (window.addEventListener) {
+    window.addEventListener('load', function () { document.getElementById('lhnContainer').appendChild(lhnScript); }, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent('onload', function () { document.getElementById('lhnContainer').appendChild(lhnScript); });
+}
+</script>
+<!--end http://www.livehelpnow.net  -->
+
+</div>
+            
+            
+            <div class="language-but">
+            <form method="post" action="##MERCHANT_URL##/cart.php" name="ds_languages">
+            <input type="hidden" value="set_language" name="m">
+            <input type="hidden" name="select" value="" />
+           ##IF_LANG_1##
+<input type="submit" style="background:url('##MERCHANT_URL##/00198-1/design/images/header-jp.png') no-repeat; width:52px; height:27px;overflow: hidden;text-indent: 1000px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;color:#EBE2D5; border:0;" value="2" onclick="this.form.select.value = this.2" name="langID" class="icon-jp" alt="Japanese">
+##END_IF##
+ ##IF_LANG_2##
+ <input type="submit" style="background:url('##MERCHANT_URL##/00198-1/design/images/header-eng.png') no-repeat; width:52px; height:27px;overflow: hidden;text-indent: 1000px;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;color:#EBE2D5; border:0;" value="1" name="langID" class="icon-en"　alt="English">
+ ##END_IF##
+        </form>            
+            </div>
+            
+        </div>
+        
+    </div>
+    <div id="nav">
+        
+    </div>
+    <div id="content">
+        <div id="content-left">
+            ##LEFT_WIDGETS##
+        </div>
+        <div id="content-middle">
+		
+**Yoyo Market Secure Header:**
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+        ##HEAD##
+        <link rel="stylesheet" type="text/css" href="##SECURE_URL##/premium/00198-1/design/css/font-face.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##SECURE_URL##/premium/00198-1/design/css/reset.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##SECURE_URL##/premium/00198-1/design/css/cc.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="##SECURE_URL##/premium/00198-1/design/css/main.css" media="screen" />
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="##SECURE_URL##/premium/00198-1/design/css/cc-ie7.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel="stylesheet" href="##SECURE_URL##/premium/00198-1/design/css/cc-ie6.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="##SECURE_URL##/premium/00198-1/design/css/ie7.css" type="text/css" media="screen" />
+        <![endif]-->
+        <!--[if IE 6]>
+            <link rel="stylesheet" href="##SECURE_URL##/premium/00198-1/design/css/ie6.css" type="text/css" media="screen" />
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="##SECURE_URL##/premium/00198-1/design/css/color.css" media="screen" />
+    ##IF_LANG_2##
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    ##END_IF##
+    ##IF_LANG_2##
+ <link rel="stylesheet" type="text/css" href="##SECURE_URL##/premium/00198-1/design/css/japanese.css" media="screen" />
+ ##END_IF##
+        <script type="text/javascript" src="##SECURE_URL##/premium/00198-1/design/js/delivery-date.js"></script>   
+        <script type="text/JavaScript">
+$(function() {
+   $('input').each(function() {
+       $(this).addClass(this.type);
+   });
+});
+</script>
+    </head>
+    <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="container">
+    <div id="header">
+        <div id="logo">
+            <div class="mylogo">
+                ##LOGO##
+            </div>            
+        </div>  
+        <div id="header-links">
+        ##IF_LANG_1##
+        <a class="top-my-account" href="##SECURE_URL##/cart.php?m=account" style="font-size:13px;line-height:17px;">my account</a>
+        ##END_IF##
+        ##IF_LANG_2##
+        <a class="top-my-account" href="##SECURE_URL##/cart.php?m=account" style="font-size:13px;line-height:17px;">マイ アカウント</a>
+        ##END_IF##
+        ##CONTENT_MODULE_35##
+        <!--##MENU_BAR##-->
+        
+        <div class="cart-box">
+            <a class="top-view-cart" href="##SECURE_URL##/cart.php?m=view"></a>
+            ##SIDEBAR_SHOPPING_CART##
+            </div>
+        ##IF_LANG_1##
+        <a class="top-my-account" href="https://www16.corecommerce.com/~yoyomarket/login.php?m=create_account&go=&email=" style="font-size:13px;line-height:17px;position:relative">sign up</a>    
+        ##END_IF##
+        ##IF_LANG_2##
+        <a class="top-my-account" href="https://www16.corecommerce.com/~yoyomarket/login.php?m=create_account&go=&email=" style="font-size:13px;line-height:17px;position:relative">新規登録</a>    
+        ##END_IF##
+            
+        <br clear="all"/>
+        <hr />    
+            
+                        <div class="header-contact">  <!--start http://www.livehelpnow.net  -->
+<!--This DIV object will show the live chat button, have it placed in the location on your website where you would like the live chat button to show-->
+<div id="lhnContainer" style="text-align: center;">
+<div id="lhnChatButton"></div>
+
+</div>
+
+
+<!--You may install the following code in an external JavaScript file if you like-->
+<script type="text/javascript">
+var lhnAccountN=12091; //LiveHelpNow account #
+var lhnButtonN = 3488; //Button #
+var lhnInviteEnabled = 1; //Invite visitor to chat automatically
+var lhnInviteChime = 0; //1 = disable invite beep sound,0 = keep invite beep sound enabled
+var lhnWindowN = 0; //Chat window #, leave 0 to open default window setup for your account
+var lhnDepartmentN = 0; //Department #, leave 0 to not route by department
+var lhnCustomInvitation = ''; //change to 1 to use custom invitation, see this article for customization instructions: http://help.livehelpnow.net/article.aspx?cid=1&aid=1739
+var lhnCustom1 = ''; //Custom1 feed value please use encodeURIComponent() function to encode your values
+var lhnCustom2 = ''; //Custom2 feed value please use encodeURIComponent() function to encode your values
+var lhnCustom3 = ''; //Custom3 feed value please use encodeURIComponent() function to encode your values
+var lhnTrackingEnabled = 't'; //change to 'f' to disable visitor tracking
+var lhnVersion = 5.3; //LiveHelpNow version #
+var lhnJsHost = (("https:" == document.location.protocol) ? "https://" : "http://"); //to force secure chat replace this line with: var lhnJsHost = 'https://';
+var lhnScriptSrc = lhnJsHost + 'www.livehelpnow.net/lhn/scripts/livehelpnow.aspx?lhnid=' + lhnAccountN + '&iv=' + lhnInviteEnabled + '&d=' + lhnDepartmentN + '&ver=' + lhnVersion + '&rnd=' + Math.random();
+var lhnScript = document.createElement("script"); lhnScript.type = "text/javascript";lhnScript.src = lhnScriptSrc;
+if (window.addEventListener) {
+    window.addEventListener('load', function () { document.getElementById('lhnContainer').appendChild(lhnScript); }, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent('onload', function () { document.getElementById('lhnContainer').appendChild(lhnScript); });
+}
+</script>
+<!--end http://www.livehelpnow.net  --></div>
+            
+            
+            
+        </div>
+        
+    </div>
+    <div id="nav">
+        
+    </div>
+    <div id="content">
+        <div id="content-left">
+            ##LEFT_WIDGETS##
+        </div>
+        <div id="content-middle">
+
+Yoyo Market Japanese Homepage Body:
+
+<script>
+    $(document).ready(function(){  
+            
+        $("ul.topnav li").mouseover(function() { 
+            $(this).find("ul.subnav").slideDown('fast').show(); 
+			
+            $(this).hover(function() {  
+            }, function(){  
+                $(this).find("ul.subnav").slideUp('slow');  
+            });  
+      
+            }).hover(function() {  
+                $(this).addClass("subhover"); 
+            }, function(){  
+                $(this).removeClass("subhover"); 
+        });  
+      
+    });  
+</script>
+<p><style type="text/css">
+#content-left {
+	display: none;
+}
+#content-middle {
+	padding: 0 0 0 37px;
+	width: 942px !important;
+        min-height: 2565px;
+	margin:-26px 0;
+}
+
+    #home-top-nav ul.topnav {  
+        
+		z-index:100;
+		position: relative; 
+    }  
+   #home-top-nav ul.topnav li {  
+        position: relative; 
+    }  
+    #home-top-nav ul.topnav li a{  
+        
+    }  
+   
+    #home-top-nav ul.topnav li ul.subnav {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 4px solid #ECE0C1;
+    border-left: 4px solid #ECE0C1;
+    border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+    border-right: 4px solid #ECE0C1;
+    display: none;
+    float: left;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 13px 0;
+    position: absolute;
+    top: 64px;
+    width: 230px;
+    z-index: 100;
+	box-shadow: 2px 2px 4px rgba(2, 3, 5, 0.3);
+	text-transform: lowercase;
+}
+  #home-top-nav ul.topnav li ul.subnav li {
+    clear: both;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 0 2px 25px;
+	text-align:left;
+}  
+   #home-top-nav ul.topnav li ul.subnav li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #957956;
+    float: left;
+}
+    #home-top-nav ul.topnav li ul.subnav li a:hover { 
+    color: #5f493e;
+	}  
+	.slides_control { height:333px !important;}
+</style></p>
+<div id="home-top-nav">
+<ul class="topnav">
+    <li style="width:150px" class="first">get started:</li>
+    <li style="width:150px;font-weight:bold;font-family: HGP創英角ゴシックUB;"><a href="http://yoyomarket.jp/Food-and-Drink-32.html" class="dropdown">食品 &amp; 飲料</a>
+    <ul class="subnav roundBot">
+        <li><a href="http://www.yoyomarket.jp/Basic-Ingredients-c943/">調理用食材</a></li>
+        <li><a href="http://www.yoyomarket.jp/Bread-Bakery-c936/">パン・ベーカリー</a></li>
+        <li><a href="http://www.yoyomarket.jp/Cereals,-Grains-Pasta-c966/">パスタ・穀類 etc</a></li>
+        <li><a href="http://www.yoyomarket.jp/Cheese,-Dairy-Eggs-c960/">乳製品・たまご</a></li>
+        <li><a href="http://www.yoyomarket.jp/Condiments-Sauces-c962/">調味料・ソース</a></li>
+        <li><a href="http://yoyomarket.jp/Cool-Frozen-c1098/">冷蔵／冷凍</a></li>
+        <li><a href="http://www.yoyomarket.jp/Drinks-c930/">ドリンク</a></li>
+        <li><a href="http://www.yoyomarket.jp/Fruits-Vegetables-c1018/">果実と野菜</a></li>
+        <li><a href="http://www.yoyomarket.jp/Meats-Seafood-c945/">お肉・シーフード</a></li>
+        <li><a href="http://www.yoyomarket.jp/Organic-Vegetarian-c957/">オーガニック・ベジタリアン</a></li>
+        <li><a href="http://www.yoyomarket.jp/Premade-Meals-Sides-c940/">サイドメニュー</a></li>
+        <li><a href="http://www.yoyomarket.jp/Snacks-Sweets-c932/">お菓子・エナジーバー</a></li>
+        <li><a href="http://www.yoyomarket.jp/Soup-Chili-c950/">スープ・チリ etc</a></li>
+        <li><a href="http://www.yoyomarket.jp/World-Ethnic-c938/">世界の食材</a></li>
+    </ul>
+    </li>
+    <li style="width:150px;font-weight:bold;font-family: HGP創英角ゴシックUB;"><a href="http://yoyomarket.jp/Non-Food-33.html" class="dropdown">家庭用品</a>
+    <ul class="subnav roundBot">
+        <li><a href="http://www.yoyomarket.jp/Appliances-Electronics-c1014/">家電と電化製品</a></li>
+        <li><a href="http://www.yoyomarket.jp/Cleaning-Paper-Products-c972/">お掃除・ペーパータオル</a></li>
+        <li><a href="http://www.yoyomarket.jp/Health,-Beauty-Baby-c970/">ヘルスケア・美容・ベビー用品</a></li>
+        <li><a href="http://www.yoyomarket.jp/Home-Garden-c1007/">ホーム・ガーデン</a></li>
+        <li><a href="http://www.yoyomarket.jp/Kitchen-Dining-c986/">キッチン・ダイニング</a></li>
+        <li><a href="http://www.yoyomarket.jp/Magazines-c1003/">雑誌</a></li>
+        <li><a href="http://www.yoyomarket.jp/Pets-c1042/">ペット</a></li>
+        <li><a href="http://www.yoyomarket.jp/School-Office-c980/">消耗品</a></li>
+        <li><a href="http://www.yoyomarket.jp/Textiles-Clothing-c1032/">衣料品・タオル・毛布</a></li>
+        <li><a href="http://www.yoyomarket.jp/Toys,-Games-Sports-c935/">おもちゃ・スポーツ用品</a></li>
+    </ul>
+    </li>
+    <li style="width:150px;font-weight:bold;font-family: HGP創英角ゴシックUB;"><a title="IKEA Delivery - Personal Shopper" href="Personal-Shopper-13.html">イケアデリバリ</a></li>
+    <li style="width:150px;font-weight:bold;font-family: HGP創英角ゴシックUB;"><a href="Yoyo-Market-FAQ-25.html">よくある質問</a></li>
+    <li style="padding: 5px 0px"><img width="135" height="47" alt="" src="https://www16.corecommerce.com/~yoyomarket/uploads/image/paypallogo(1).jpg" /></li>
+</ul>
+</div>
+<div><img src="https://www16.corecommerce.com/~yoyomarket/uploads/image/YOYOmarket__.png" usemap="#TopMap" alt="TopImage" /></div>
+<p><map id="TopMap" name="TopMap">
+<area href="#bottomlinks" shape="rect" coords="41,260,173,313" alt="Bottom" />
+<area href="#bottomlinks" shape="rect" coords="195,263,351,310" alt="Bottom" />
+<area href="#bottomlinks" shape="rect" coords="365,266,515,310" alt="Bottom" />
+<area href="#bottomlinks" shape="rect" coords="533,266,684,307" alt="Bottom" /> </map></p>
+<!-- ##HOME_PRODUCTS_BEGIN## -->
+<div class="homeProducts round" id="homeTop" style="height: 220px;">
+<div class="hdr-title">
+<div class="hdr-title-text"><a href="top_sellers.html">top sellers</a></div>
+</div>
+<div style="float: left; clear: left; height: auto; width: 100%;">
+<ul class="jcarousel-skin-tango" id="mycarousel">  ##TOP_SELLERS## </ul>
+    </div>
+    <!-- ##HOME_PRODUCTS_END## --></div>
+    <hr />
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <div><img border="0px" src="https://www16.corecommerce.com/~yoyomarket/uploads/image/CategoryButtons.png" alt="カテゴリー" usemap="#ButtonMap" /></div>
+    <p><map id="ButtonMap" name="ButtonMap">
+    <area href="http://yoyomarket.jp/Food-and-Drink-32.html" shape="poly" coords="10,6,47,6,47,85,89,85,89,159,10,159" alt="冷凍と冷蔵" />
+    <area href="http://www.yoyomarket.jp/Basic-Ingredients-c943/" shape="poly" coords="57,6,130,6,130,75,57,75" alt="調理用食材" />
+    <area href="http://www.yoyomarket.jp/Bread-Bakery-c936/" shape="poly" coords="140,6,220,6,220,77,180,77,180,159,99,159,99,85,140,85" alt="パンとベーカリー" />
+    <area href="http://www.yoyomarket.jp/Cereals,-Grains-Pasta-c966/" shape="poly" coords="190,88,260,88,260,159,190,159" alt="パスタ・穀類" />
+    <area href="http://www.yoyomarket.jp/Cheese,-Dairy-Eggs-c960/" shape="poly" coords="229,6,309,6,309,85,349,85,349,159,271,159,271,77,229,77" alt="乳製品とたまご" />
+    <area href="http://www.yoyomarket.jp/Condiments-Sauces-c962/" shape="poly" coords="320,6,391,6,391,74,320,74" alt="調味料とソース" />
+    <area href="http://www.yoyomarket.jp/Fruits-Vegetables-c1018/" shape="poly" coords="404,6,482,6,482,77,441,77,441,159,362,159,362,85,404,85" alt="果実と野菜" />
+    <area href="http://www.yoyomarket.jp/Drinks-c930/" shape="poly" coords="452,88,521,88,521,159,452,159" alt="ドリンク" />
+    <area href="http://www.yoyomarket.jp/Meats-Seafood-c945/" shape="poly" coords="491,6,569,6,569,159,532,159,532,77,491,77" alt="お肉とシーフード" />
+    <area href="http://www.yoyomarket.jp/Organic-Vegetarian-c957/" shape="poly" coords="581,6,589,6,589,85,681,85,681,6,688,6,688,159,581,159" alt="オーガニックとベジタリアン" />
+    <area href="http://www.yoyomarket.jp/Premade-Meals-Sides-c940/" shape="poly" coords="600,6,669,6,669,75,600,75" alt="サイドメニュー" />
+    <area href="http://www.yoyomarket.jp/Snacks-Sweets-c932/" shape="poly" coords="699,6,759,6,759,159,699,159" alt="お菓子とエナジーバー" />
+    <area href="http://www.yoyomarket.jp/Soup-Chili-c950/" shape="poly" coords="771,6,840,6,840,75,771,75" alt="スープとチリ" />
+    <area href="http://www.yoyomarket.jp/World-Ethnic-c938/" shape="poly" coords="771,89,840,89,840,159,771,159" alt="世界の食材" />
+    <area href="http://yoyomarket.jp/Non-Food-33.html" shape="poly" coords="852,6,911,6,911,159,852,159" alt="家庭用品" /> </map></p>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
+    <hr />
+    <div>&nbsp;</div>
+    <!-- ##HOME_PRODUCTS_BEGIN## -->
+    <div class="homeProducts round" id="homeNew">
+    <div class="hdr-title">
+    <div class="hdr-title-text"><a href="new_arrivals.html">new arrivals</a></div>
+    </div>
+    <div style="float: left; clear: left; height: auto; width: 100%;"> ##NEW_ARRIVALS##</div>
+    <div class="clear">&nbsp;</div>
+    </div>
+    <!-- ##HOME_PRODUCTS_END## -->
+    <div id="slides">
+    <div class="slides_container round"><img border="0" src="/00198-1/design/images/slide2JP.jpg" alt="first time?" usemap="#Map3" /><img border="0" src="https://www16.corecommerce.com/~yoyomarket/design/images/2_p1.jpg?871814138" title="Yoyo Rewards" alt="Yoyo Rewards" usemap="#Map4" /><a href="Personal-Shopper-13.html" title="IKEA Delivery - Personal Shopper"><img border="0" src="/00198-1/design/images/slide3JP.jpg" alt="IKEA Delivery - Personal Shopper" /></a><img border="0" src="https://www16.corecommerce.com/~yoyomarket/premium/00198-1/design/images/slide1JP.jpg?46739658" alt="get to know" usemap="#Map1" /><img border="0" src="/00198-1/design/images/slide4JP.jpg" alt="get social" usemap="#Map" /></div>
+    </div>
+    <p><map name="Map4" id="Map4">
+    <area href="http://yoyomarket.jp/Yoyo-Rewards-29.html#Points" alt="Yoyo Points" coords="81,224,200,260" shape="rect" />
+    <area href="http://yoyomarket.jp/Yoyo-Rewards-29.html#Refer" alt="Refer a Friend" coords="81,274,232,311" shape="rect" />
+    <area href="http://yoyomarket.jp/Yoyo-Rewards-29.html" alt="Yoyo Rewards" coords="35,100,625,200" shape="rect" />
+    <area href="http://yoyomarket.jp/Yoyo-Rewards-29.html" alt="Yoyo Rewards" coords="637,43,923,250" shape="rect" />    </map></p>
+    <p><map name="Map3" id="Map3">
+    <area href="http://yoyomarket.jp/Yoyo-Market-Walkthrough-24.html" alt="Yoyo Market Walkthrough" coords="77,229,360,265" shape="rect" />
+    <area href="http://yoyomarket.jp/Why-Yoyo-Market-16.html" alt="Why Yoyo Market" coords="77,277,310,315" shape="rect" />    </map></p>
+    <p><map id="Map2" name="Map2">
+    <area href="http://yoyomarket.jp/Halloween-c1099/" alt="Halloween Specials" coords="10,113,771,176" shape="rect" />    </map></p>
+    <p><map name="Map1" id="Map1">
+    <area href="http://yoyomarket.jp/About-Us-4.html" alt="About Us" coords="97,225,325,265" shape="rect" />
+    <area href="http://yoyomarket.jp/Contact-Us-5.html" alt="Contact Us" coords="97,272,271,310" shape="rect" />    </map></p>
+    <p><map name="Map" id="Map">
+    <area href="http://www.facebook.com/YoyoMarket" alt="Facebook" target="_blank" coords="471,40,915,125" shape="rect" />
+    <area href="http://eepurl.com/c5g8Q" alt="Newsletter" target="_blank" coords="471,130,912,208" shape="rect" />
+    <area href="http://ameblo.jp/yoyomarket/" alt="Blog" target="_blank" coords="472,211,910,298" shape="rect" />     </map></p>
+    <!-- ##HOME_PRODUCTS_BEGIN## -->
+    <p>&nbsp;</p>
+    <div class="homeProducts round" id="homeSales">
+    <div class="hdr-title">
+    <div class="hdr-title-text"><a href="specials.html">super sales</a></div>
+    </div>
+    <div style="float: left; clear: left; height: auto; width: 100%;"> ##SUPER_SALES##</div>
+    <div class="clear">&nbsp;</div>
+    </div>
+    <!-- ##HOME_PRODUCTS_END## -->
+    <div class="clear">&nbsp;</div>
+    <div class="clear"><a name="bottomlinks"><img width="925" height="51" alt="" src="https://www16.corecommerce.com/~yoyomarket/uploads/image/ShopInformationOutline5.png" /></a></div>
+    <div class="clear">&nbsp;</div>
+    <div class="clear">&nbsp;</div>
+	
+**Yoyo Market Japanese Homepage Body Bottom:**
+
+<div class="home-about" style="padding: 0px 20px;height:545px;border-right: 1px solid #999999;"><span style="font-size: 20px;"><a href="http://yoyomarket.jp/Payment-Policy-11.html"><strong>支払い方法</strong></a></span><br />
+<span style="font-size: small;color:#666666">クレジットカード・銀行振込・代金引換のいずれかよりご利用いただけます。</span><br />
+<br />
+<span style="font-size: 20px;"><a href="http://yoyomarket.jp/Shipping-Policy-1.html"><strong>発送について</strong></a></span><br />
+<span style="font-size: small;color:#666666">当日の午前中までのご注文に関しては、当日発送となります。午後以降のご注文は翌日発送となりますのでご注意下さい。<br />
+また、ヨヨマーケットの営業日時は平日午前10:00～18:00ですので、金曜日の午後のご注文は翌月曜日の発送となります。<br />
+<span style="font-size: 20px;"><br />
+<a href="http://yoyomarket.jp/Shipping-Policy-1.html"><strong>商品到着日時</strong></a></span><br />
+本州・四国につきましては午前中にご注文頂ければ、翌日中には到着いたします。<br />
+九州・沖縄地方、北海道はご注文の翌々日到着となります。ご了承下さい。</span></div>
+<div class="home-categories" style="width:185px;padding-right:25px;margin: 0 0 0 12px;height:545px;border-right: 1px solid #999999;">
+<p><span style="font-size: 20px;"><a href="http://yoyomarket.jp/Shipping-Policy-1.html"><strong>送料について</strong></a></span><br />
+<span style="font-size: small;color:#666666">送料全国一律25kgまで何箱に分かれても合計950円<br />
+・冷蔵・冷凍の追加料金は一切ナシ！！<br />
+例）冷蔵・冷凍便ですと通常１箱に１５kgまでしか入れることができませんが、ヨヨマーケットでは、２５kgまでのお買い物なら、冷蔵・冷凍便２箱になったとしても送料は合計９５０円と言うことになります。<br />
+・さらに商品代金の合計金額が30,000円以上で完全送料無料！<br />
+１個だけではません！段ボール何個でもタダです♪<br />
+比べて見て下さい！ヨヨマーケットは冷蔵・冷凍便の追加料金一切ナシで、即日発送、全国どこでも離島でも配達出来て送料が全箱完全に無料になるお店です！コストコ通販・イケア通販ならヨヨマーケット！<br />
+<br />
+</span></p>
+</div>
+<div style="width:185px;padding-right:25px;margin: 0 0 0 25px;height:545px;border-right: 1px solid #999999;" class="home-categories">
+<p><span style="font-size: 20px;"><a href="http://yoyomarket.jp/Privacy-Policy-2.html"><strong>プライバシーの保護</strong></a></span><br />
+<span style="font-size: small;color:#666666">お客様とのやり取りの中で得た個人情報（住所氏名、メールアドレス、ご購入アイテム等）に関し、「事業サービスに必要な利用の場合」「配送業者等、商品の配送や交換に必要となる場合」「裁判所・警察機関等、公共機関からの提出要請があった場合」などを除き、第三者に譲渡または公開する事はございません。<br />
+どうぞ安心してご利用ください。</span> <br />
+<br />
+<span style="font-size: 20px;color:#9AC215"><strong>会員登録について</strong></span><br />
+<span style="font-size: small;color:#666666">会員登録は基本的に自由となっています。<br />
+ご登録をして頂かなくてもコストコ・イケアの商品もお買い物出来ますし、ご登録をすれば、以降のお買い物がしやすくなるだけでなく、リワードプログラムによってポイントを貯めて、そのポイントを次回からのお買い物に使うことができます♪ </span></p>
+</div>
+<div style="width:190px;padding-right:25px;margin: 0 0 0 25px;height:545px;" class="home-categories">
+<p><span style="font-size: 20px;color:#9AC215"><strong>商品の欠品について</strong></span><br />
+<span style="font-size: small;color:#666666">ヨヨマーケットでは一定の在庫をご用意し販売しておりますが多数の注文が重複した場合は在庫が不足する場合がございます。<br />
+また基本的にはコストコ幕張倉庫店の在庫と同様となります。<br />
+確認し在庫がある場合は発送となりますが上記店舗にて在庫が無い場合はその商品を除いた商品の発送となります。<br />
+※在庫切れなどがございましてもご注文頂いた他の商品のキャンセルなどは受け付けは出来ませんのでご理解の上、ご注文くださいませ。<br />
+・合計金額に関しましては在庫切れ、不具合が発生した商品代金分を引き発送となります。</span></p>
+</div>
+
+**Yoyo Market Footer:**
+
+</div>
+<p><style type="text/css">
+    .fb_iframe_widget {
+    overflow: hidden;
+    width: 214px;
+}
+</style></p>
+<div id="content-right">
+  ##RIGHT_WIDGETS##
+</div>
+</div>
+ ##IF_LANG_1##
+<div id="footer">
+  <div id="widgetFooter">
+    <div class="nav">
+      <div class="title"><a href="##SECURE_URL##/login.php?m=client_login">Login</a></div>
+      <ul>
+        <li><a href="##SECURE_URL##/cart.php?m=account">My Account</a></li>
+        <li><a href="##MERCHANT_URL##/cart.php?m=view">View Cart</a></li>
+        <li><a href="##SECURE_URL##/checkout.php?m=fastcheckout">Checkout</a></li>
+        <li><a href="##SECURE_URL##/login.php?m=create_account">Register</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-Walkthrough-24.html">Walkthrough</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="http://ameblo.jp/yoyomarket" target="_blank">Blog</a></div>
+      <ul>
+        <li><a href="http://www.facebook.com/YoyoMarket" target="_blank">Facebook</a></li>
+        <li><a href="http://pinterest.com/yoyomarketjapan/" target="_blank">Pinterest</a></li>
+        <li><a href="https://twitter.com/#!/YoyoMarketJapan" target="_blank">Twitter</a></li>
+        <li><a href="http://yoyomarket.tumblr.com/" target="_blank">Tumblr</a></li>
+        <li><a href="##MERCHANT_URL##/Contact-Us-5.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/top_sellers.html">Top Sellers</a></div>
+      <ul>
+          <li><a href="##MERCHANT_URL##/specials.html">Super Sales</a></li>
+        <li><a href="##MERCHANT_URL##/new_arrivals.html">New Arrivals</a></li>
+        <li><a title="IKEA Delivery - Personal Shopper" href="##MERCHANT_URL##/Personal-Shopper-13.html">Ikea Delivery</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Rewards-29.html">Yoyo Rewards</a></li>
+        <li><a href="##MERCHANT_URL##/cart.php?m=gift_certificates">Gift Certificates</a></li>
+      </ul>
+    </div>
+    <div class="nav afterlogo">
+      <div class="title"><a href="##MERCHANT_URL##/About-Us-4.html">About Us</a>
+<ul>
+        <li><a href="##MERCHANT_URL##/newsletter-archives-22.html">Newsletter Archives</a></li>
+        <li><a href="##MERCHANT_URL##/Testimonials-15.html">Testimonials</a></li>
+        
+        
+      </ul>
+</div>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/Why-Yoyo-Market-16.html">Why Yoyo?</a></div>
+      <ul>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-FAQ-25.html">FAQ</a></li>
+        <li><a href="##MERCHANT_URL##/Shipping-Policy-1.html">Shipping Policy</a></li>
+        <li><a href="##MERCHANT_URL##/Payment-Policy-11.html">Payment Policy</a></li>
+        <li><a href="##MERCHANT_URL##/Privacy-Policy-2.html">Privacy</a></li>
+        <li><a href="##MERCHANT_URL##/Terms-of-Use-3.html">Terms of Use</a></li>
+      </ul>
+    </div>
+                        <div class="footer-mailing"><p><strong>Join the Yoyo Mailing list!</strong><br />
+Get the latest deals in our fun
+weekly newsletter.</p>
+<div id="mc_embed_signup">
+<form action="http://yoyomarket.us2.list-manage1.com/subscribe/post?u=9244c52194903e34d7d67b5e2&amp;id=8c3a2567a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <fieldset>
+    
+<div class="mc-field-group">
+<input type="text"  onfocus="javascript:processInitialHeaderSearchFocus(this);" value="first name" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+<input type="text" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="javascript:processInitialHeaderSearchFocus(this);" value="e-mail address">
+</div>
+        
+        <div><input type="submit" value="sign up!" name="subscribe" id="mc-embedded-subscribe" class="btn"></div>
+    </fieldset>    
+</form>
+</div>
+
+
+</div>
+    <div class="footer-add"><div class="footer-bot-left"><h4>Yoyo Market: Japan's premiere online supermarket</h4> Your home for online Costco shopping and imported goods in Japan. And we deliver IKEA, too. Straight to your door--anywhere in Japan. Don't be shy, give us a shout and let us know how we can help! </div><div class="footer-bot-right">
+<h4><a href="mailto:support@yoyomarket.jp" target="_blank">We <span class="heart"></span>feedback</a></h4>
+<a href="mailto:support@yoyomarket.jp" target="_blank">Please tell us what you think of the site.</a>
+Any and all feedback is truly appreciated<div></div>
+  </div>
+                                            <div class="footnote"><div class="footer-contact"><a href="##MERCHANT_URL##/Contact-Us-5.html"></a>
+</div><a href="http://www.hamuck.com.au" target="_blank">design by hamuck</a></div>
+ ##END_IF##
+ 
+  ##IF_LANG_2##
+<div id="footer">
+  <div id="widgetFooter">
+    <div class="nav">
+      <div class="title"><a href="##SECURE_URL##/login.php?m=client_login">ログイン</a></div>
+      <ul>
+        <li><a href="##SECURE_URL##/cart.php?m=account">マイページ</a></li>
+        <li><a href="##MERCHANT_URL##/cart.php?m=view">カートを見る</a></li>
+        <li><a href="##SECURE_URL##/checkout.php?m=fastcheckout">チェックアウト</a></li>
+        <li><a href="##SECURE_URL##/login.php?m=create_account">新規登録</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="https://www.facebook.com/pages/Yoyo-Market-Japan/143107679097587?fref=ts" target="_blank">Facebook</a></div>
+      <ul>
+        <li><a href="http://pinterest.com/yoyomarketjapan/" target="_blank">Pinterest</a></li>
+        <li><a href="https://twitter.com/#!/YoyoMarketJapan" target="_blank">Twitter</a></li>
+        <li><a href="http://ameblo.jp/yoyomarket" target="_blank">ブログ</a></li>
+        <li><a href="##MERCHANT_URL##/Contact-Us-5.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/top_sellers.html">トップセラー</a></div>
+      <ul>
+        <li><a href="##MERCHANT_URL##/specials.html">バーゲン</a></li>
+        <li><a href="##MERCHANT_URL##/new_arrivals.html">新着商品</a></li>
+        <li><a title="IKEA Delivery - Personal Shopper" href="##MERCHANT_URL##/Personal-Shopper-13.html">IKEA デリバリ</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Rewards-29.html">Yoyoポイント</a></li>
+      </ul>
+    </div>
+    <div class="nav afterlogo">
+      <div class="title"><a href="##MERCHANT_URL##/About-Us-4.html">Yoyoについて</a>
+      <ul>
+        <li><a href="http://yoyomarket.jp/newsletter-archives-22.html">ニュースレター <br/>アーカイブ</a></li>
+        <li><a href="##MERCHANT_URL##/Testimonials-15.html">クチコミ</a></li>
+        
+        
+      </ul>
+</div>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/Why-Yoyo-Market-16.html">Why Yoyo?</a></div>
+      <ul>
+        <li><a href="##MERCHANT_URL##/Shipping-Policy-1.html">配送について</a></li>
+        <li><a href="##MERCHANT_URL##/Payment-Policy-11.html">お支払いについて</a></li>
+        <li><a href="##MERCHANT_URL##/Privacy-Policy-2.html">プライバシー</a></li>
+        <li><a href="##MERCHANT_URL##/Terms-of-Use-3.html">特定商取引法</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-FAQ-25.html">よくある質問</a></li>
+      </ul>
+    </div>
+                        <div class="footer-mailing"><div class="footer-mailing"><div class="fb-like-box" id="fb_iframe_widget" data-href="http://www.facebook.com/pages/Yoyo-Market-Japan/143107679097587" data-width="235" data-height="197" data-show-faces="true" data-stream="false" data-header="false" data-connections="4" style="margin-left:0px; margin-top:0px; background-color:#FAF7EF;width:235px;border:1px solid #4B4437;height:197px;"></div></div></div>
+
+
+                        <br/>
+    <div class="footer-add"><div class="footer-bot-left"><h4>ヨヨマーケットジャパンのプレミアム・オンライン・スーパーマーケット</h4> ヨヨマーケット は コストコの商品や輸入雑貨などを取り扱ったオンラインストアです。もちろんイケアの商品も日本中どこへでも、お客様の玄関までお届けいたします。　遠慮なく私たちにわがままをぶつけてください！　</div><div class="footer-bot-right">
+<h4><a href="mailto:support@yoyomarket.jp" target="_blank">We <span class="heart"></span>feedback</a></h4>
+<a href="mailto:support@yoyomarket.jp" target="_blank">このサイトについてどうお考えですか？どんなご意見でもお聞かせください。</a>
+<div></div>
+  </div>
+  <div class="footnote"><div class="footer-contact"><a href="##MERCHANT_URL##/Contact-Us-5.html"></a>
+   </div><a href="http://www.hamuck.com.au" target="_blank">design by hamuck</a></div>
+ ##END_IF##
+<!--
+  ##HORIZONTAL_IMAGE##
+  ##FOOTER_CONTENT##-->
+</div>
+</div>
+
+##ANALYTICS##
+
+</body></html>
+
+**Yoyo Market Secure Footer:**
+
+</div>
+<p><style type="text/css">
+    .fb_iframe_widget {
+    overflow: hidden;
+    width: 214px;
+}
+</style></p>
+<div id="content-right">
+  ##RIGHT_WIDGETS##
+</div>
+</div>
+ ##IF_LANG_1##
+<div id="footer">
+  <div id="widgetFooter">
+    <div class="nav">
+      <div class="title"><a href="##SECURE_URL##/login.php?m=client_login">Login</a></div>
+      <ul>
+        <li><a href="##SECURE_URL##/cart.php?m=account">My Account</a></li>
+        <li><a href="##MERCHANT_URL##/cart.php?m=view">View Cart</a></li>
+        <li><a href="##SECURE_URL##/checkout.php?m=fastcheckout">Checkout</a></li>
+        <li><a href="##SECURE_URL##/login.php?m=create_account">Register</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-Walkthrough-24.html">Walkthrough</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="http://ameblo.jp/yoyomarket" target="_blank">Blog</a></div>
+      <ul>
+        <li><a href="http://www.facebook.com/YoyoMarket" target="_blank">Facebook</a></li>
+        <li><a href="http://pinterest.com/yoyomarketjapan/" target="_blank">Pinterest</a></li>
+        <li><a href="https://twitter.com/#!/YoyoMarketJapan" target="_blank">Twitter</a></li>
+        <li><a href="http://yoyomarket.tumblr.com/" target="_blank">Tumblr</a></li>
+        <li><a href="##MERCHANT_URL##/Contact-Us-5.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/top_sellers.html">Top Sellers</a></div>
+      <ul>
+          <li><a href="##MERCHANT_URL##/specials.html">Super Sales</a></li>
+        <li><a href="##MERCHANT_URL##/new_arrivals.html">New Arrivals</a></li>
+        <li><a title="IKEA Delivery - Personal Shopper" href="##MERCHANT_URL##/Personal-Shopper-13.html">Ikea Delivery</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Rewards-29.html">Yoyo Rewards</a></li>
+      </ul>
+    </div>
+    <div class="nav afterlogo">
+      <div class="title"><a href="##MERCHANT_URL##/About-Us-4.html">About Us</a>
+<ul>
+        <li><a href="##MERCHANT_URL##/newsletter-archives-22.html">Newsletter Archives</a></li>
+        <li><a href="##MERCHANT_URL##/Testimonials-15.html">Testimonials</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-News-23.html">Yoyo News</a></li>
+        
+      </ul>
+</div>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/Why-Yoyo-Market-16.html">Why Yoyo?</a></div>
+      <ul>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-FAQ-25.html">FAQ</a></li>
+        <li><a href="##MERCHANT_URL##/Shipping-Policy-1.html">Shipping Policy</a></li>
+        <li><a href="##MERCHANT_URL##/Payment-Policy-11.html">Payment Policy</a></li>
+        <li><a href="##MERCHANT_URL##/Privacy-Policy-2.html">Privacy</a></li>
+        <li><a href="##MERCHANT_URL##/Terms-of-Use-3.html">Terms of Use</a></li>
+      </ul>
+    </div>
+                        <div class="footer-mailing"><p><strong>Join the Yoyo Mailing list!</strong><br />
+Get the latest deals in our fun
+weekly newsletter.</p>
+<div id="mc_embed_signup">
+<form action="http://yoyomarket.us2.list-manage1.com/subscribe/post?u=9244c52194903e34d7d67b5e2&amp;id=8c3a2567a7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <fieldset>
+    
+<div class="mc-field-group">
+<input type="text"  onfocus="javascript:processInitialHeaderSearchFocus(this);" value="first name" name="FNAME" class="" id="mce-FNAME">
+</div>
+<div class="mc-field-group">
+<input type="text" name="EMAIL" class="required email" id="mce-EMAIL" onfocus="javascript:processInitialHeaderSearchFocus(this);" value="e-mail address">
+</div>
+        
+        <div><input type="submit" value="sign up!" name="subscribe" id="mc-embedded-subscribe" class="btn"></div>
+    </fieldset>    
+</form>
+</div>
+
+
+</div>
+    <div class="footer-add"><div class="footer-bot-left"><h4>Yoyo Market: Japan's premiere online supermarket</h4> Your home for online Costco shopping and imported goods in Japan. And we deliver IKEA, too. Straight to your door--anywhere in Japan. Don't be shy, give us a shout and let us know how we can help! </div><div class="footer-bot-right">
+<h4><a href="mailto:support@yoyomarket.jp" target="_blank">We <span class="heart"></span>feedback</a></h4>
+<a href="mailto:support@yoyomarket.jp" target="_blank">Please tell us what you think of the site.</a>
+Any and all feedback is truly appreciated<div></div>
+  </div>
+                                            <div class="footnote"><div class="footer-contact"><a href="##MERCHANT_URL##/Contact-Us-5.html"></a>
+</div><a href="http://www.hamuck.com.au" target="_blank">design by hamuck</a></div>
+ ##END_IF##
+ 
+  ##IF_LANG_2##
+<div id="footer">
+  <div id="widgetFooter">
+    <div class="nav">
+      <div class="title"><a href="##SECURE_URL##/login.php?m=client_login">ログイン</a></div>
+      <ul>
+        <li><a href="##SECURE_URL##/cart.php?m=account">マイページ</a></li>
+        <li><a href="##MERCHANT_URL##/cart.php?m=view">カートを見る</a></li>
+        <li><a href="##SECURE_URL##/checkout.php?m=fastcheckout">チェックアウト</a></li>
+        <li><a href="##SECURE_URL##/login.php?m=create_account">新規登録</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="https://www.facebook.com/pages/Yoyo-Market-Japan/143107679097587?fref=ts" target="_blank">Facebook</a></div>
+      <ul>
+        <li><a href="http://pinterest.com/yoyomarketjapan/" target="_blank">Pinterest</a></li>
+        <li><a href="https://twitter.com/#!/YoyoMarketJapan" target="_blank">Twitter</a></li>
+        <li><a href="http://ameblo.jp/yoyomarket" target="_blank">ブログ</a></li>
+        <li><a href="##MERCHANT_URL##/Contact-Us-5.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/top_sellers.html">トップセラー</a></div>
+      <ul>
+        <li><a href="##MERCHANT_URL##/specials.html">バーゲン</a></li>
+        <li><a href="##MERCHANT_URL##/new_arrivals.html">新着商品</a></li>
+        <li><a title="IKEA Delivery - Personal Shopper" href="##MERCHANT_URL##/Personal-Shopper-13.html">IKEA デリバリ</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Rewards-29.html">Yoyoポイント</a></li>
+      </ul>
+    </div>
+    <div class="nav afterlogo">
+      <div class="title"><a href="##MERCHANT_URL##/About-Us-4.html">Yoyoについて</a>
+      <ul>
+        <li><a href="http://yoyomarket.jp/newsletter-archives-22.html">ニュースレター <br/>アーカイブ</a></li>
+        <li><a href="##MERCHANT_URL##/Testimonials-15.html">クチコミ</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-News-23.html">Yoyo ニュース</a></li>
+        
+      </ul>
+</div>
+    </div>
+    <div class="nav">
+      <div class="title"><a href="##MERCHANT_URL##/Why-Yoyo-Market-16.html">Why Yoyo?</a></div>
+      <ul>
+        <li><a href="##MERCHANT_URL##/Shipping-Policy-1.html">配送について</a></li>
+        <li><a href="##MERCHANT_URL##/Payment-Policy-11.html">お支払いについて</a></li>
+        <li><a href="##MERCHANT_URL##/Privacy-Policy-2.html">プライバシー</a></li>
+        <li><a href="##MERCHANT_URL##/Terms-of-Use-3.html">特定商取引法</a></li>
+        <li><a href="##MERCHANT_URL##/Yoyo-Market-FAQ-25.html">よくある質問</a></li>
+      </ul>
+    </div>
+                        <div class="footer-mailing"><div class="footer-mailing"><div class="fb-like-box" id="fb_iframe_widget" data-href="http://www.facebook.com/pages/Yoyo-Market-Japan/143107679097587" data-width="235" data-height="197" data-show-faces="true" data-stream="false" data-header="false" data-connections="4" style="margin-left:0px; margin-top:0px; background-color:#FAF7EF;width:235px;height:197px;border:1px solid #4B4437;"></div></div></div>
+
+
+                        <br/>
+    <div class="footer-add"><div class="footer-bot-left"><h4>ヨヨマーケットジャパンのプレミアム・オンライン・スーパーマーケット</h4> ヨヨマーケット は コストコの商品や輸入雑貨などを取り扱ったオンラインストアです。もちろんイケアの商品も日本中どこへでも、お客様の玄関までお届けいたします。　遠慮なく私たちにわがままをぶつけてください！　</div><div class="footer-bot-right">
+<h4><a href="mailto:support@yoyomarket.jp" target="_blank">We <span class="heart"></span>feedback</a></h4>
+<a href="mailto:support@yoyomarket.jp" target="_blank">このサイトについてどうお考えですか？どんなご意見でもお聞かせください。</a>
+<div></div>
+  </div>
+  <div class="footnote"><div class="footer-contact"><a href="##MERCHANT_URL##/Contact-Us-5.html"></a>
+   </div><a href="http://www.hamuck.com.au" target="_blank">design by hamuck</a></div>
+ ##END_IF##
+<!--
+  ##HORIZONTAL_IMAGE##
+  ##FOOTER_CONTENT##-->
+</div>
+</div>
+##ANALYTICS##
+
+</body></html>
